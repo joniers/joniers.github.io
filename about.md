@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+### 这就是我
 
-### Contact me
+小小码农一枚，久居西安，号小小一刀，C/C++程序员，深受windows编程之苦，喜欢linux，勤奋努力自学中，python/js都有涉猎，仅限于个人兴趣爱好
+喜欢研究，喜欢答案，更享受过程
 
-[email@domain.com](mailto:joniers@163.com)
+### 联系我
+
+[我的Email](mailto:joniers@163.com)
