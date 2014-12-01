@@ -22,20 +22,18 @@ title: Intersection of Two Linked Lists
 >  You may assume there are no cycles anywhere in the entire linked structure.
 >  Your code should preferably run in O(n) time and use only O(1) memory.
 
-```C++
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
-class Solution {
+```c++
+	//ListNode 
+	 /* struct ListNode {
+	      int val;
+	      ListNode *next;
+	      ListNode(int x) : val(x), next(NULL) {}
+	  };
+	  */
+	class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        if (headA == NULL || headB == NULL) 
-	        return NULL;
+        if (headA == NULL || headB == NULL) return NULL;
         int icount1(0),icount2(0);
         ListNode *TempList1 = headA;
         ListNode *TempList2 = headB;
@@ -69,7 +67,8 @@ public:
                 TempList1 = TempList1->next;
                 TempList2 = TempList2->next;
             }
-            return TempList1;        
+            return TempList1;
+               
             }
         }
         
